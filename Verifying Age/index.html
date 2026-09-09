@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/db09709f66.js" crossorigin="anonymous"></script>
+    <title>Verifying Age</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verifying Age</h1>
+    </header>
+    <section>
+        <div>
+            <p>Year of Birth</p>
+            <input type="number" name="year" id="year">
+        </div>
+        <p>Gender
+        <input type="radio" name="gend" id="fem" checked>
+        <label for="fem">Female</label>
+        <input type="radio" name="gend" id="male">
+        <label for="male">Male</label>
+        </p>
+        <p>
+            <input type="button" value="Verify" onclick="verify()">
+        </p>
+        <div id="res">
+            Fill out the information above to check the result!
+        </div>
+    </section>
+    <footer>
+        <p> <i class="fa-regular fa-copyright"></i> Curso em Vídeo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
